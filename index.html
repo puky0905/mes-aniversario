@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poema de Amor</title>
+    <style>
+        body {
+            background-color: #000000; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+            font-family: Arial, sans-serif;
+            text-align: center; /* Centrado del contenido */
+            padding: 20px;
+            position: relative; /* Necesario para posicionar las imágenes */
+        }
+        h1 {
+            color: #ff6347; /* Título en un color suave de rojo */
+            font-size: 3em; /* Título más grande */
+        }
+        .poema {
+            font-size: 1.5em; /* Texto del poema más grande */
+            color: #fff; /* Color blanco para el poema */
+            text-align: center; /* Centrado del poema */
+            margin: 20px auto;
+            max-width: 80%; /* Para evitar que el texto se extienda demasiado */
+            position: relative;
+            z-index: 2; /* Asegura que el texto esté por encima de las imágenes */
+        }
+        .mensaje {
+            color: #ff4500; /* Naranja brillante para el 'Te amo' */
+            font-size: 2.5em; /* Tamaño grande */
+            text-align: center;
+            margin: 50px 0;
+            position: relative;
+            z-index: 2; /* Asegura que el texto esté por encima de las imágenes */
+        }
+        .firma {
+            text-align: right; /* Alineado a la derecha */
+            font-size: 1.5em;
+            margin-top: 30px;
+            color: #fff; /* Blanco */
+        }
+        .imagenes {
+            position: absolute;
+            top: 50%; /* Centra las imágenes verticalmente */
+            width: 100%;
+            z-index: 1; /* Las imágenes estarán detrás del texto */
+        }
+        .imagenes img {
+            width: 15%; /* Tamaño reducido para las imágenes */
+            margin: 10px;
+            opacity: 0.5; /* Hacer las imágenes semi-transparentes */
+        }
+        .imagen-izquierda {
+            position: absolute;
+            left: 0;
+        }
+        .imagen-derecha {
+            position: absolute;
+            right: 0;
+        }
+        .imagen-abajo {
+            display: block;
+            margin-top: 20px;
+            width: 30%; /* Tamaño más grande para la imagen de abajo */
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mes Aniversario</h1>
+    <div class="poema">
+        <p>Hola amor, quería agradecerte por estar conmigo estos dos meses de relación, los cuales tal vez son pocos pero muy apreciables. De ellos puedo decir que han sido los más lindos y divertidos de mi vida. Gracias a que estoy contigo me divierto más de lo que acostumbraba. Es por eso que quiero demostrar mi cariño e interés intentando dar un detalle. No seré el mejor expresando lo que siento, pero espero que puedas entender lo que siento por ti.</p>
+        <p>Lo primero que vi el día que entré a aquel salón fue a ti. Tú, con una mirada curiosa y extrañada, y yo pensativo y extrañado por saber ¿por qué? No esperaba lo que me depararía el futuro, con la sorpresa de que fueras tú, esa bella y preciosa mujer de cabello chino, ojos hermosos que me atrapan con su inexplicable sensación de tranquilidad, como el amor. El tiempo contigo es diferente, las horas, los minutos, los segundos. La tranquilidad que me proporcionas a mi alma no es comparable a nada, y eres tú quien me ha dado una paz diferente a la que tenía. Me llenas de calidez, la forma en que nos contamos nuestros secretos es la más profunda y sincera.</p>
+        <p>Por ello, te prometo ayudar a que lo nuestro sea algo bueno y siempre podamos estar juntos en las buenas y las malas.</p>
+    </div>
+    <div class="mensaje">Te amo</div>
+    <div class="imagenes">
+        <!-- Imagen izquierda -->
+        <img src="imagenes/novia.jpg" alt="novia" class="imagen-izquierda">
+        <!-- Imagen derecha -->
+        <img src="imagenes/novia 2. jpg.jpg" alt="novia" class="imagen-derecha">
+    </div>
+
+    <!-- Imagen debajo del "Te amo" -->
+    <img src="imagenes/novia3.jpg" alt="novia" class="imagen-abajo">  
+    <div class="firma">atte: tu novio</div>
+
+</body>
+</html>
