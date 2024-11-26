@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poema de Amor</title>
+    <!-- Importando fuentes desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000000; /* Fondo negro */
+            color: #fff;
+            font-family: 'Dancing Script', cursive; /* Fuente cursiva para el poema */
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+        h1 {
+            font-family: 'Pacifico', cursive; /* Fuente elegante para el título */
+            color: #1e90ff;
+            font-size: 3em;
+            text-shadow: 1px 1px 6px rgba(0, 0, 255, 0.3); /* Sombra suave azul */
+            animation: fadeIn 2s ease-in-out;
+            position: relative;
+        }
+        /* Corazón a la izquierda del título */
+        .corazon-izquierda {
+            font-size: 2em;
+            color: #ff1493;
+            position: absolute;
+            left: -10px; /* Corazón más cerca del título */
+            top: 0;
+        }
+
+        /* Corazón a la derecha del título */
+        .corazon-derecha {
+            font-size: 2em;
+            color: #ff1493;
+            position: absolute;
+            right: -10px; /* Corazón más cerca del título */
+            top: 0;
+        }
+
+        .poema {
+            font-size: 1.5em;
+            color: #fff;
+            text-align: center;
+            margin: 20px auto;
+            max-width: 80%;
+            font-style: italic;
+            text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.5); /* Sombra sutil */
+            animation: fadeIn 2s ease-in-out;
+        }
+        .mensaje {
+            color: #00a86b;
+            font-size: 2.5em;
+            text-align: center;
+            margin: 50px 0;
+            text-shadow: 1px 1px 6px rgba(0, 168, 107, 0.6); /* Sombra suave verde */
+            animation: fadeIn 2s ease-in-out;
+            animation-delay: 1s; /* Retraso para el "Te Amo" */
+        }
+        .firma {
+            text-align: right;
+            font-size: 1.5em;
+            margin-top: 30px;
+            color: #fff;
+            font-style: italic;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.3);
+            animation: fadeIn 2s ease-in-out;
+            animation-delay: 2s; /* Retraso para la firma */
+        }
+        /* Animación de Fade-in */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .imagenes {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            z-index: 1;
+        }
+        .imagenes img {
+            width: 15%;
+            margin: 10px;
+            opacity: 0.5;
+            border-radius: 8px;
+        }
+        .imagen-izquierda {
+            position: absolute;
+            left: 0;
+        }
+        .imagen-derecha {
+            position: absolute;
+            right: 0;
+        }
+        .imagen-abajo {
+            display: block;
+            margin-top: 20px;
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <span class="corazon-izquierda">&#10084;</span> <!-- Corazón a la izquierda -->
+        Mes Aniversario
+        <span class="corazon-derecha">&#10084;</span> <!-- Corazón a la derecha -->
+    </h1>
+    <div class="poema">
+        <p>Hola amor, quería agradecerte por estar conmigo estos dos meses de relación, los cuales tal vez son pocos pero muy apreciables. De ellos puedo decir que han sido los más lindos y divertidos de mi vida. Gracias a que estoy contigo me divierto más de lo que acostumbraba. Es por eso que quiero demostrar mi cariño e interés intentando dar un detalle. No seré el mejor expresando lo que siento, pero espero que puedas entender lo que siento por ti.</p>
+        <p>Lo primero que vi el día que entré a aquel salón fue a ti. Tú, con una mirada curiosa y extrañada, y yo pensativo y extrañado por saber ¿por qué? No esperaba lo que me depararía el futuro, con la sorpresa de que fueras tú, esa bella y preciosa mujer de cabello chino, ojos hermosos que me atrapan con su inexplicable sensación de tranquilidad, como el amor. El tiempo contigo es diferente, las horas, los minutos, los segundos. La tranquilidad que me proporcionas a mi alma no es comparable a nada, y eres tú quien me ha dado una paz diferente a la que tenía. Me llenas de calidez, la forma en que nos contamos nuestros secretos es la más profunda y sincera.</p>
+        <p>Por ello, te prometo ayudar a que lo nuestro sea algo bueno y siempre podamos estar juntos en las buenas y las malas.</p>
+    </div>
+    <div class="mensaje">¡Te amo!</div>
+    <div class="imagenes">
+        <img src="imagenes/novia.jpg" alt="novia" class="imagen-izquierda">
+        <img src="imagenes/novia 2. jpg.jpg" alt="novia" class="imagen-derecha">
+    </div>
+    <img src="imagenes/novia3.jpg" alt="novia" class="imagen-abajo">
+    <div class="firma">atte: tu novio ❤️</div>
+</body>
+</html>
